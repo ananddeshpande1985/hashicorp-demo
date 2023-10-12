@@ -32,3 +32,27 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# .tfplan files
+*.tfplan
+
+# .pem files
+*.pem
+#credential files
+credentials
+**/import/*
+**/git_config/*
+**/tfc-getting-started/*
+**/vpc_module/*
+
+

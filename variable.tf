@@ -33,7 +33,7 @@ variable "company" {
 variable "bucket_name_prefix" {
   type        = string
   description = "prefix for bucket name"
-  default     = "mys3bucket -${environment_prefix}"
+  default     = "mys3bucket-${environment_prefix}"
 
 }
 

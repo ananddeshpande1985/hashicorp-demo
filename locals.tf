@@ -7,7 +7,7 @@ locals {
   }
 
   name_prefix        = "anand"
-  environment_prefix = "dev"
+  # environment_prefix = "dev"
 
   private_subnet_tags = {
     type = "private"

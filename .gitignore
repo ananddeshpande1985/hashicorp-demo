@@ -55,4 +55,4 @@ credentials
 **/tfc-getting-started/*
 **/vpc_module/*
 
-.terraform.lock.hcl
+*.terraform.lock.hcl

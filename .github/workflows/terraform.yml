@@ -1,6 +1,11 @@
 name: 'Terraform'
 
-on: push
+on: 
+  push:
+    branches:
+      - master
+
+
 
 env:
   TF_LOG: INFO

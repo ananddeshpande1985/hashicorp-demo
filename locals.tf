@@ -1,9 +1,9 @@
 locals {
 
   common_tags = {
-    company = "${var.company}-addition"
-    mode    = "temp"
-    business= "temp"
+    company  = "${var.company}-addition"
+    mode     = "temp"
+    business = "temp"
   }
 
   name_prefix        = "anand"

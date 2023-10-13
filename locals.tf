@@ -5,7 +5,7 @@ locals {
     mode    = "temp"
   }
 
-  name_prefix = "anand"
+  name_prefix        = "anand"
   environment_prefix = "dev"
 
   private_subnet_tags = {
@@ -15,7 +15,7 @@ locals {
     type = "public"
   }
   s3_bucket_name = "${var.bucket_name_prefix}-${random_integer.s3.result}"
-  s3_content  = {
+  s3_content = {
     file1 = "file1.txt"
     file2 = "file2.txt"
   }
@@ -42,6 +42,6 @@ data "aws_ami" "ubuntu" {
     values = ["ami-0c42696027a8ede58"]
   }
 
-  
+
 
 }

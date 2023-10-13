@@ -38,6 +38,6 @@ variable "bucket_name_prefix" {
 }
 
 variable "service_name" {
-  type = string
+  type    = string
   default = "nginx"
 }

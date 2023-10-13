@@ -42,4 +42,3 @@ jobs:
       id: validate
       if: (success() || failure())
       run: terraform validate
-

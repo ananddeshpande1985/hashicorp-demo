@@ -30,13 +30,6 @@ variable "company" {
   default     = "unisys"
 }
 
-variable "bucket_name_prefix" {
-  type        = string
-  description = "prefix for bucket name"
-  default     = "mys3bucket-${environment_prefix}"
-
-}
-
 variable "service_name" {
   type    = string
   default = "nginx"

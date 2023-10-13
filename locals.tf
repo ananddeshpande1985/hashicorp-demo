@@ -6,7 +6,7 @@ locals {
     business = "temp"
   }
 
-  name_prefix        = "anand"
+  name_prefix = "anand"
   # environment_prefix = "dev"
 
   private_subnet_tags = {
@@ -15,7 +15,7 @@ locals {
   public_subnet_tags = {
     type = "public"
   }
-  s3_bucket_name = "${var.bucket_name_prefix}-${random_integer.s3.result}"
+  s3_bucket_name = "${var.environment_prefix}-demobucket-${random_integer.s3.result}"
   s3_content = {
     file1 = "file1.txt"
     file2 = "file2.txt"

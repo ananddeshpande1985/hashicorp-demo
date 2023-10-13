@@ -54,5 +54,5 @@ credentials
 **/git_config/*
 **/tfc-getting-started/*
 **/vpc_module/*
-
+backend_local.tf
 *.terraform.lock.hcl

@@ -56,3 +56,4 @@ credentials
 **/vpc_module/*
 backend_local.tf
 *.terraform.lock.hcl
+**terraform_cloud_config/*

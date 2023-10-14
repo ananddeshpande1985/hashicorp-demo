@@ -9,8 +9,8 @@ variable "common_tags" {
   type = map(string)
 }
 variable "private_subnet_tags" {
-  type = string
+  type = map(string)
 }
 variable "public_subnet_tags" {
-  type = string
+  type = map(string)
 }

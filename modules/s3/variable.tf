@@ -2,8 +2,8 @@ variable "s3_bucket_name" {
   type = string
 }
 variable "common_tags" {
-  type = string
+  type = map()
 }
 variable "s3_content" {
-  type = string
+  type = map()
 }

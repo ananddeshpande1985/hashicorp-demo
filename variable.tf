@@ -17,13 +17,6 @@ variable "aws_region" {
 
 }
 
-variable "aws_cidr_block" {
-  type        = string
-  description = "AWS CIDR Block"
-  default     = "10.0.0.0/16"
-}
-
-
 variable "company" {
   type        = string
   description = " this is a tag value for  tag  company"

@@ -42,7 +42,4 @@ data "aws_ami" "ubuntu" {
     name   = "image-id"
     values = ["ami-0c42696027a8ede58"]
   }
-
-
-
 }

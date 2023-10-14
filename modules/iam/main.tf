@@ -37,8 +37,8 @@ resource "aws_iam_policy" "web_server_policy" {
         ],
         "Effect" : "Allow",
         "Resource" : [
-          "arn:aws:s3:::${local.s3_bucket_name}",
-          "arn:aws:s3:::${local.s3_bucket_name}/*"
+          "arn:aws:s3:::${var.s3_bucket_name}",
+          "arn:aws:s3:::${var.s3_bucket_name}/*"
         ]
       }
     ]

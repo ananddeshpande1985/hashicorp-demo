@@ -11,3 +11,18 @@ variable "name_prefix" {
 variable "environment_prefix" {
   type = string
 }
+
+
+data "aws_ami" "ubuntu" {
+  most_recent = true
+  owners      = ["137112412989"]
+
+  filter {
+    name   = "root-device-type"
+    values = ["ebs"]
+  }
+  filter {
+    name   = "image-id"
+    values = ["ami-0c42696027a8ede58"]
+  }
+}

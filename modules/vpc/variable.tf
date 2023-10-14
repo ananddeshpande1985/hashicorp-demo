@@ -6,7 +6,7 @@ variable "aws_cidr_block" {
 }
 
 variable "common_tags" {
-  type = map()
+  type = map(list(string))
 }
 variable "private_subnet_tags" {
   type = string

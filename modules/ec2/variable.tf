@@ -3,7 +3,7 @@ variable "service_name" {
 }
 
 variable "common_tags" {
-  type = map()
+  type = map(list(string))
 }
 variable "name_prefix" {
   type = string

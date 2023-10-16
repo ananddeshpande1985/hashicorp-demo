@@ -4,7 +4,7 @@ locals {
     company  = "${var.company}-addition"
     mode     = "temp"
     business = "demo-business",
-    Project = "hashicorp demo"
+    Project  = "hashicorp demo"
     Billable = "yes"
 
   }
